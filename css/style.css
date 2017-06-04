@@ -316,7 +316,8 @@ body {
 @media(max-width: 991px) {
     .tab-section {
         text-align: center;
-        padding-top: 20px
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .tab-section li {
         width: 33.33333%;
@@ -704,7 +705,7 @@ body {
 .stylish .overlay {
     padding-top: 50px;
     padding-bottom: 50px;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, .7);
     height: 100%;
     width: 100%;
     top: 0;
@@ -803,9 +804,9 @@ body {
 
 @media(max-width: 991px) {
     .contact {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
 
 
@@ -841,6 +842,7 @@ body {
         width: calc(14.2% - 24px)
     }
 }
+
 
 /* End Footer */
 
