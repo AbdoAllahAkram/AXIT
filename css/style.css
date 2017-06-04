@@ -335,8 +335,8 @@ body {
 /* Start Sub-list Section */
 
 .sub-list {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .sub-list img {
@@ -476,8 +476,8 @@ body {
 /* Start Features Section */
 
 .features {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .features h2 {
@@ -624,11 +624,11 @@ body {
 /* Start Price-plan Section */
 
 
-/* Start Features Section */
+/* Start Testemonial Section */
 
 .testemonial {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .testemonial h2 {
@@ -689,7 +689,7 @@ body {
 }
 
 
-/* End Features Section */
+/* End Testemonial Section */
 
 
 /*Start Stlish Section*/
