@@ -165,6 +165,8 @@ body {
     .header {
         text-align: center;
         height: 100%;
+    }
+    .header .overlay {
         padding-bottom: 50px;
     }
     .header .content {
@@ -373,6 +375,37 @@ body {
     margin-right: 15px
 }
 
+@media(max-width: 991px) {
+    .sub-list {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center
+    }
+    .sub-list img {
+        margin-top: 0;
+        margin-bottom: 30px;
+        box-shadow: 0px 0px 20px #a2a2a2;
+        ;
+        -webkit-box-shadow: 0px 0px 20px #a2a2a2;
+        ;
+        -moz-box-shadow: 0px 0px 20px #a2a2a2;
+        ;
+        -o-box-shadow: 0px 0px 20px #a2a2a2;
+        ;
+    }
+    .sub-list hr {
+        float: none;
+        margin-left: auto
+    }
+    .sub-list .media {
+        text-align: left
+    }
+    .sub-list .media i {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+}
+
 
 /* End Sub-list Section */
 
@@ -409,6 +442,30 @@ body {
 
 .Stander-pic p {
     color: #86878b;
+}
+
+@media(max-width: 991px) {
+    .Stander-pic {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center
+    }
+    .Stander-pic img {
+        margin-top: 0;
+        margin-bottom: 30px;
+        box-shadow: 0px 0px 20px #a2a2a2;
+        ;
+        -webkit-box-shadow: 0px 0px 20px #a2a2a2;
+        ;
+        -moz-box-shadow: 0px 0px 20px #a2a2a2;
+        ;
+        -o-box-shadow: 0px 0px 20px #a2a2a2;
+        ;
+    }
+    .Stander-pic hr {
+        float: none;
+        margin-left: auto
+    }
 }
 
 
@@ -549,6 +606,19 @@ body {
     border-bottom: 1px solid #f5f5f5
 }
 
+@media(max-width: 991px) {
+    .price-plan {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .price-plan .price {
+        margin-bottom: 50px
+    }
+    .price-plan .custom {
+        margin-top: 0
+    }
+}
+
 
 /* Start Price-plan Section */
 
@@ -608,6 +678,13 @@ body {
     margin: 25px 0;
     margin-bottom: 5px;
     margin-top: 15px;
+}
+
+@media(max-width: 991px) {
+    .testemonial {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
 }
 
 
@@ -724,6 +801,13 @@ body {
     background: #ff9b51;
 }
 
+@media(max-width: 991px) {
+    .contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+}
+
 
 /* End contact-us section */
 
@@ -752,6 +836,11 @@ body {
     margin-bottom: 0
 }
 
+@media(max-width: 991px) {
+    .footer .icon i {
+        width: calc(14.2% - 24px)
+    }
+}
 
 /* End Footer */
 
