@@ -53,13 +53,11 @@ body {
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
-    position: relative;
     overflow: hidden;
 }
 
 .header .overlay {
     background: rgba(0, 0, 0, .52);
-    position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
@@ -166,7 +164,8 @@ body {
 @media(max-width: 991px) {
     .header {
         text-align: center;
-        height: 150vh;
+        height: 100%;
+        padding-bottom: 50px;
     }
     .header .content {
         margin-top: 60px;
@@ -175,15 +174,8 @@ body {
         margin: 30px auto;
         float: none;
     }
-    
     .header form {
-    width: 90%;
-}
-}
-
-@media(max-width: 350px) {
-    .header {
-        height: 200vh;
+        width: 90%;
     }
 }
 
@@ -257,7 +249,6 @@ body {
     .social-media {
         text-align: center;
     }
-    
     .social-media i {
         width: calc(14.2% - 32px);
         font-size: 20px
@@ -323,8 +314,7 @@ body {
 @media(max-width: 991px) {
     .tab-section {
         text-align: center;
-                padding-top: 20px
-
+        padding-top: 20px
     }
     .tab-section li {
         width: 33.33333%;
