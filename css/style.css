@@ -487,7 +487,8 @@ body {
 .features h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    font-size: 40px
+    font-size: 40px;
+    margin-top: 0;
 }
 
 .features hr {
@@ -536,7 +537,8 @@ body {
 .price-plan h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    font-size: 40px
+    font-size: 40px;
+    margin-top: 0;
 }
 
 .price-plan hr {
@@ -638,7 +640,9 @@ body {
 .testemonial h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    font-size: 40px
+    font-size: 40px;
+        margin-top: 0;
+
 }
 
 .testemonial hr {
@@ -806,7 +810,9 @@ body {
 .contact h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    font-size: 40px
+    font-size: 40px;
+        margin-top: 0;
+
 }
 
 .contact hr {
