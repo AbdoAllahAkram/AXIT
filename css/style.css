@@ -734,6 +734,12 @@ body {
     }
 }
 
+@media(max-width: 233px) {
+    .testemonial .content .client-say:after {
+        top: 220px;
+    }
+}
+
 /* End Testemonial Section */
 
 
