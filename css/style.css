@@ -251,6 +251,10 @@ body {
     .social-media {
         text-align: center;
     }
+    .social-media .icon {
+        float: none !important;
+        text-align: center;
+    }
     .social-media i {
         width: calc(14.2% - 32px);
         font-size: 20px
